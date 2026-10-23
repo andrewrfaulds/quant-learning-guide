@@ -74,7 +74,7 @@ The papers most often cited in trading work. Most are short and readable even if
 
 | Book | Level | What it gives you |
 | --- | --- | --- |
-| *Algorithmic Trading and DMA* (2010), Barry Johnson | Intro‚ÄìMid | How orders move from strategy to exchange: order books, execution algorithms (VWAP, TWAP, implementation shortfall), transaction costs and direct market access infrastructure. |
+| *Algorithmic Trading and DMA* (2010), Barry Johnson | Intro‚Mid | How orders move from strategy to exchange: order books, execution algorithms (VWAP, TWAP, implementation shortfall), transaction costs and direct market access infrastructure. |
 | *Algorithmic and High-Frequency Trading* (2015), Cartea, Jaimungal & Penalva | Advanced | Rigorous models for optimal execution and market making using stochastic control. The natural next step after Avellaneda-Stoikov. |
 | *Advances in Financial Machine Learning* (2018), Marcos L√≥pez de Prado | Advanced | How to apply ML to financial data without fooling yourself: labelling, backtest overfitting, feature importance. |
 
@@ -82,11 +82,11 @@ The papers most often cited in trading work. Most are short and readable even if
 
 | Book | Level | What it gives you |
 | --- | --- | --- |
-| *Option Volatility and Pricing* (2nd ed., 2015), Sheldon Natenberg | Intro‚ÄìMid | The standard practitioner's introduction: pricing models, the Greeks, volatility, spreads and risk management. Widely used to train new option traders. |
-| *Options, Futures and Other Derivatives*, John Hull | Intro‚ÄìMid | The standard textbook reference for derivatives. Broad and clear; better for looking things up than reading cover to cover. |
+| *Option Volatility and Pricing* (2nd ed., 2015), Sheldon Natenberg | Intro‚Mid | The standard practitioner's introduction: pricing models, the Greeks, volatility, spreads and risk management. Widely used to train new option traders. |
+| *Options, Futures and Other Derivatives*, John Hull | Intro‚Mid | The standard textbook reference for derivatives. Broad and clear; better for looking things up than reading cover to cover. |
 | *Paul Wilmott Introduces Quantitative Finance*, Paul Wilmott | Mid | A readable introduction to derivatives maths and the Black-Scholes framework. |
 | *Volatility Trading* (2nd ed., 2013), Euan Sinclair | Mid | How to forecast volatility and trade it in practice, including position sizing. |
-| *Dynamic Hedging* (1997), Nassim Nicholas Taleb | Mid‚ÄìAdvanced | A trader's view of managing options books: the Greeks in practice and where models break down. |
+| *Dynamic Hedging* (1997), Nassim Nicholas Taleb | Mid‚Advanced | A trader's view of managing options books: the Greeks in practice and where models break down. |
 | *The Volatility Surface* (2006), Jim Gatheral | Advanced | How implied volatility varies by strike and expiry, and the models used to fit it. |
 
 ## Digital assets
@@ -97,7 +97,7 @@ The papers most often cited in trading work. Most are short and readable even if
 | BitMEX perpetual swap documentation | Intro | Explains the perpetual future: a futures contract with no expiry, kept close to spot by periodic funding payments between longs and shorts. Now the most traded crypto derivative. |
 | Uniswap v3 whitepaper (2021) | Mid | Automated market makers with concentrated liquidity, where liquidity providers choose a price range. Useful for seeing how on-chain liquidity differs from a limit order book. |
 | Daian et al., "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges" (IEEE S&P 2020) | Mid | How bots front-run DeFi trades by bidding for transaction ordering. Introduced the term MEV (miner/maximal extractable value). |
-| Deribit API documentation and testnet | Intro‚ÄìMid | The main crypto options venue. The testnet lets you practise placing options orders without real money. |
+| Deribit API documentation and testnet | Intro‚Mid | The main crypto options venue. The testnet lets you practise placing options orders without real money. |
 
 ## Maths, probability and statistics
 
@@ -108,13 +108,13 @@ A range from refresher material to quant-level depth. Checking textbook problems
 | 3Blue1Brown, *Essence of Linear Algebra* (YouTube) | Intro | Visual intuition for vectors, matrices and eigenvalues. A quick refresher. |
 | StatQuest with Josh Starmer (YouTube) | Intro | Short, clear videos on core statistics: distributions, hypothesis tests, regression. Good for commute revision. |
 | MIT 6.0002 (*Introduction to Computational Thinking and Data Science*), Monte Carlo lectures | Intro | Free lectures; a gentle, code-first introduction to simulation. |
-| Harvard Stat 110 with Blitzstein & Hwang, *Introduction to Probability* | Intro‚ÄìMid | The best foundational probability course. Lectures and problem sets are free online. |
+| Harvard Stat 110 with Blitzstein & Hwang, *Introduction to Probability* | Intro‚Mid | The best foundational probability course. Lectures and problem sets are free online. |
 | Mosteller, *Fifty Challenging Problems in Probability* | Mid | Short puzzles for building speed and intuition. |
 | Zhou, *A Practical Guide to Quantitative Finance Interviews* (the "green book") | Mid | Interview-style problems in probability, brain teasers and finance. |
 | Capinski & Zastawniak, *Mathematics for Finance* | Mid | A compact introduction to the maths of pricing, from interest rates to options in discrete time. Small enough to read on a commute. |
 | Ross, *Introduction to Probability Models* | Mid | Stochastic processes: Markov chains, Poisson processes, queueing. |
-| Wasserman, *All of Statistics* | Mid‚ÄìAdvanced | A dense, fast tour of statistics and inference for people with some maths. |
-| Owen, *Monte Carlo Theory, Methods and Examples* | Mid‚ÄìAdvanced | Error estimation and variance reduction. Pairs well with building a Monte Carlo option pricer. |
+| Wasserman, *All of Statistics* | Mid‚Advanced | A dense, fast tour of statistics and inference for people with some maths. |
+| Owen, *Monte Carlo Theory, Methods and Examples* | Mid‚Advanced | Error estimation and variance reduction. Pairs well with building a Monte Carlo option pricer. |
 | Shreve, *Stochastic Calculus for Finance I* | Advanced | Discrete-time option pricing (binomial model); the bridge into continuous-time finance. |
 | Glasserman, *Monte Carlo Methods in Financial Engineering* | Advanced | The reference text for simulation in derivatives pricing. |
 
@@ -123,8 +123,10 @@ A range from refresher material to quant-level depth. Checking textbook problems
 | Resource | Level | Why it's here |
 | --- | --- | --- |
 | *Designing Data-Intensive Applications*, Martin Kleppmann | Mid | Not a finance book, but the best guide to the data systems (streams, replication, consistency) that trading platforms are built on. |
-| *Terraform: Up & Running*, Yevgeniy Brikman, plus HashiCorp's own tutorials | Intro‚ÄìMid | Infrastructure as code: provisioning repeatable environments for trading and data systems. |
-| Adrian Cantrill's AWS courses (learn.cantrill.io) | Intro‚ÄìAdvanced | Thorough, architecture-focused AWS training. The AWS Organizations and multi-account material is useful for setting up regulated, segregated environments. |
+| *Terraform: Up & Running*, Yevgeniy Brikman, plus HashiCorp's own tutorials | Intro‚Mid | Infrastructure as code: provisioning repeatable environments for trading and data systems. |
+| Adrian Cantrill's AWS courses (learn.cantrill.io) | Intro
+
+Advanced | Thorough, architecture-focused AWS training. The AWS Organizations and multi-account material is useful for setting up regulated, segregated environments. |
 
 ## Hands-on project ideas
 
